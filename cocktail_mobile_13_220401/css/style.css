@@ -1,0 +1,212 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.root>div{
+  width:100%;
+  height:30%;
+  /* background-color: aquamarine; */
+}
+
+
+/* 추천 칵테일 스와이프 */
+
+.root>div:nth-child(1){
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+.root>div:nth-child(1)>div{
+  width:100%;
+  height:80%;
+  background-color: #c8c8c8;
+}
+header{
+  text-align: center;
+  background-color: pink;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* 메인 서비스 겉박스*/
+.root>div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height:40%;
+}
+
+/* 칵테일 서치    ------      칵테일 스토리 */
+.root>div:nth-child(2)>div{
+  width:90%;
+  height:40%;
+  background-color: pink;
+  border-radius: 40px;
+}
+
+
+
+/* 칵테일 서치  겉박스 */
+
+.root>div:nth-child(2)>div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content:space-around; */
+}
+/*   justify-content:space-around;의 정확한기능 찾기
+세로뿐아니라 가로에도 영향을 주나? 
+  flex적용하면 가로세로의 기준이 휙휙바뀜*/
+
+
+
+/* 직접검색 부분 */
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+  top:5px;
+  position: relative;
+  width:90%;
+  height:25%;
+  background-color: white;
+  border-radius: 40px;
+}
+
+/* 직접검색 부분 배경색 */
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div{
+  background-color: plum;
+  width:40px;
+  height:30px;
+}
+
+/* 직접검색 부분 배경색 > 제목 "서치" */
+
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1){
+  width:90px;
+  background-color: plum;
+  position:relative;
+  left:-10px;
+  border-radius: 20px;
+  top:3px;
+}
+
+
+/* 직접검색 부분 배경색 > 완료 버튼*/
+
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2){
+  width:40px;
+  background-color: plum;
+  position:relative;
+  left:300px;
+  border-radius: 20px;
+  top:-27px;
+}
+
+
+/* 키워드 서치 겉박스 */
+
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+  /* background-color: plum; */
+  width:100%;
+  height:33%;
+  display: flex;
+  /* flex-direction: column; */
+  top:5px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+/* "cock!keyword" + "more" 박스*/
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div{
+  width:fit-content;
+  height:30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+/* more */
+#re{
+  text-align:end;
+  right:10px;
+  position: relative;
+}
+
+
+
+
+/* 키워드 구간 */
+/* 기워드 구간 겉박스 */
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+  /* background-color: white; */
+  width:100%;
+  height:33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.root>div:nth-child(2)>div:nth-child(1)>div:nth-child(3)>div{
+  width:90px;
+  height:30px;
+  border-radius: 10px;
+
+  background-color: #ffffff;
+}
+
+
+/* 
+
+
+주석 달기 
+이거는 강사님이 쓰신거죠?
+제가 쓰고....까먹은 거 아니죠?
+
+
+*/
+
+
+/* 칵테일 스토리  */
+
+/* 칵테일 스토리 제목 */
+.root>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+  width:150px;
+  height:40px;
+  top:-15px;
+  position: relative;
+  background-color: plum;
+}
+/* 칵테일 스토리 내용 겉박스 */
+.root>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+  width:100%;
+  height:80%;
+  display: flex;
+  justify-content: space-around;
+}
+/* 칵테일 스토리 내용 안박스 */
+
+.root>div:nth-child(2)>div:nth-child(2)>div:nth-child(2)>div{
+  width:25%;
+  height:80%;
+  background-color: blueviolet;
+}
+
+
+
+
+.root>div:nth-child(3){
+  display: flex;
+  align-items: center;
+}
+
+.root>div:nth-child(3)>div{
+  width:100%;
+  height:80%;
+  background-color: #c8c8c8;
+  /* border:1px solid black; */
+}
